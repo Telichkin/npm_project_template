@@ -17,7 +17,7 @@
   },
   "devDependencies": {
     "browserify": "^16.1.0",
-    "http-server": "^0.7.3",
+    "http-server": "^0.11.1",
     "live-reload": "^1.1.0",
     "onchange": "^3.3.0",
     "parallelshell": "^3.0.2",
