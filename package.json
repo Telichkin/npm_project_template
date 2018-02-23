@@ -13,7 +13,7 @@
     "build": "npm run clean && npm run copy:html && npm run build:ts && npm run build:stylus",
     "prewatch": "npm run build",
     "watch": "parallelshell 'npm run watch:html' 'npm run watch:ts' 'npm run watch:stylus'",
-    "serve": "live-server --port=9090 --no-browser ./dist"
+    "serve": "live-server --port=9090 --no-browser --entry-file=main.html ./dist"
   },
   "devDependencies": {
     "@types/react": "^16.0.38",
